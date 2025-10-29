@@ -4,7 +4,7 @@
 
 TinyHabits is a modern habit-tracking application that uses intelligent goal adaptation to help you build lasting habits. Unlike traditional habit trackers that use rigid goals, TinyHabits adjusts to your performance, keeping you motivated and consistent.
 
-![TinyHabits Dashboard Preview](/opengraph.svg)
+Website link: https://tinyhabits-personalhabitcoach.netlify.app/
 
 ## 🌟 Key Features
 
@@ -87,18 +87,16 @@ TinyHabits is a modern habit-tracking application that uses intelligent goal ada
 ## 🎉 Try It Out
 
 Experience TinyHabits today:
-1. Visit [demo URL]
+1. Visit https://tinyhabits-personalhabitcoach.netlify.app/
 2. Create your first habit
 3. Watch it adapt to your journey
 
 ## 🤝 Connect & Contribute
 
-- **GitHub**: [Repository Link]
-- **LinkedIn**: [Your LinkedIn]
-- **Twitter**: [@YourHandle]
+
+- **LinkedIn**: https://www.linkedin.com/in/harry-mofoka
+
 
 ---
 
-*Built with ❤️ by [Your Name] - Transforming habit building through intelligent technology*
-
-*#WebDevelopment #React #TypeScript #ProductDevelopment #UX #Innovation #PersonalDevelopment*
+*Built with ❤️ by Harry Mofoka - Transforming habit building through intelligent technology*
