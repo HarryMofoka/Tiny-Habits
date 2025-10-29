@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* TinyHabits Design System - Light Mode */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Teal primary for calm, growth-focused feel */
+    --primary: 172 66% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 172 66% 85%;
+
+    /* Soft secondary for cards and backgrounds */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 215 25% 15%;
+
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 15% 45%;
+
+    --accent: 172 66% 92%;
+    --accent-foreground: 172 66% 25%;
+
+    /* Success: emerald green for completed habits */
+    --success: 158 64% 52%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 158 64% 90%;
+
+    /* Warning: amber for adaptive changes */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --warning-light: 38 92% 90%;
+
+    /* Destructive: soft red for missed habits */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-light: 0 72% 90%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 172 66% 45%;
+
+    --radius: 0.75rem;
+
+    /* Gradient tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(172 66% 45%), hsl(187 85% 53%));
+    --gradient-success: linear-gradient(135deg, hsl(158 64% 52%), hsl(142 76% 36%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 20% 99%));
+
+    /* Animation tokens */
+    --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Shadow tokens */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-glow: 0 0 20px rgb(20 184 166 / 0.15);
+  }
+
+  .dark {
+    /* TinyHabits Design System - Dark Mode */
+    --background: 215 28% 10%;
+    --foreground: 210 20% 98%;
+
+    --card: 215 25% 14%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 215 25% 14%;
+    --popover-foreground: 210 20% 98%;
+
+    /* Brighter teal for dark mode visibility */
+    --primary: 172 66% 55%;
+    --primary-foreground: 215 28% 10%;
+    --primary-light: 172 66% 25%;
+
+    --secondary: 215 25% 18%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 25% 18%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 172 66% 20%;
+    --accent-foreground: 172 66% 85%;
+
+    --success: 158 64% 50%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 158 64% 20%;
+
+    --warning: 38 92% 60%;
+    --warning-foreground: 215 28% 10%;
+    --warning-light: 38 92% 25%;
+
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-light: 0 72% 20%;
+
+    --border: 215 25% 22%;
+    --input: 215 25% 22%;
+    --ring: 172 66% 55%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(172 66% 55%), hsl(187 85% 63%));
+    --gradient-success: linear-gradient(135deg, hsl(158 64% 50%), hsl(142 76% 46%));
+    --gradient-card: linear-gradient(180deg, hsl(215 25% 14%), hsl(215 25% 16%));
+
+    --shadow-glow: 0 0 30px rgb(20 184 166 / 0.25);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
